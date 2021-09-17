@@ -2,8 +2,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema
 
-const artcleSchema = new Schema(
-  {
+const artcleSchema = new Schema({
     title: {
       type: String,
       required: true,
